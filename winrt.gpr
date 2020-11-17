@@ -1,0 +1,9 @@
+with "win32ada";
+
+library project Winrt is
+
+   for Source_Dirs use (".");
+   for Library_Name use "Winrt";
+   for Library_Dir use "lib";
+
+end Winrt;
